@@ -1,0 +1,203 @@
+[2024-11-01 20:14:29] ErrorException: Undefined variable $voise in W:\domains\frame-work\views\about.php on line 5
+Stack trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+
+[2024-11-01 20:18:50] ErrorException: Undefined variable $voise in W:\domains\frame-work\views\about.php on line 5
+Stack trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+
+[2024-11-01 20:19:08] ErrorException: Undefined variable $voise in W:\domains\frame-work\views\about.php on line 5
+Stack trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+
+[2024-11-01 20:19:47] ErrorException: Undefined variable $voise in W:\domains\frame-work\views\about.php on line 5
+Stack trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+
+========== ERROR LOG ==========
+Date       : 2024-11-01 20:29:19
+Error Type : ErrorException
+Message    : Undefined variable $voise
+File       : W:\domains\frame-work\views\about.php
+Line       : 5
+Stack Trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-01 20:29:56
+Error Type : ErrorException
+Message    : Undefined variable $voise
+File       : W:\domains\frame-work\views\about.php
+Line       : 5
+Stack Trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-01 20:30:06
+Error Type : ErrorException
+Message    : Undefined variable $voise
+File       : W:\domains\frame-work\views\about.php
+Line       : 5
+Stack Trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-02 15:42:12
+Error Type : ErrorException
+Message    : Undefined variable $voise
+File       : W:\domains\frame-work\views\about.php
+Line       : 5
+Stack Trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-02 15:47:25
+Error Type : ErrorException
+Message    : Undefined variable $voise
+File       : W:\domains\frame-work\views\about.php
+Line       : 5
+Stack Trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-02 16:09:18
+Error Type : ErrorException
+Message    : Undefined variable $voise
+File       : W:\domains\frame-work\views\about.php
+Line       : 5
+Stack Trace:
+#0 W:\domains\frame-work\views\about.php(5): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-02 16:10:43
+Error Type : ErrorException
+Message    : Undefined variable $content
+File       : W:\domains\frame-work\views\layouts\main.php
+Line       : 14
+Stack Trace:
+#0 W:\domains\frame-work\views\layouts\main.php(14): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(36): require_once('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\HomeController.php(9): view()
+#4 [internal function]: App\Controllers\HomeController->about()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-04 16:28:49
+Error Type : ParseError
+Message    : syntax error, unexpected identifier "base_url", expecting "," or ";"
+File       : W:\domains\frame-work\views\layouts\main.php
+Line       : 8
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(21): Framework\View->render()
+#1 W:\domains\frame-work\app\Controllers\HomeController.php(19): view()
+#2 [internal function]: App\Controllers\HomeController->index()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(16): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-04 18:27:20
+Error Type : TypeError
+Message    : call_user_func(): Argument #1 ($callback) must be a valid callback, class App\Controllers\HomeController does not have a method "home"
+File       : W:\domains\frame-work\core\Route.php
+Line       : 58
+Stack Trace:
+#0 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#1 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#2 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#3 {main}
+===============================
+
