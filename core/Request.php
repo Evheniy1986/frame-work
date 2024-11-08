@@ -51,7 +51,7 @@ class Request
         return $_POST[$name] ?? $default;
     }
 
-    public function getData()
+    public function all()
     {
         $data = [];
         $requestData = $this->isPost() ? $_POST : $_GET;
@@ -62,6 +62,24 @@ class Request
             $data[$k] = $v;
         }
         return $data;
+    }
+
+    public function validatedData($class)
+    {
+        $data = new $class;
+        $data->loadData();
+        return $data->getAttributes();
+    }
+
+    public function validate(array $rules): array
+    {
+        $data = $this->all();
+        $validator = new Validator();
+
+        if ($validator->validate($data, $rules)) {
+            return $data;
+        }
+        return ['errors' => $validator->getErrors()];
     }
 
 

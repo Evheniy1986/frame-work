@@ -9,7 +9,7 @@ class Model
 
     public function loadData()
     {
-        $data = request()->getData();
+        $data = request()->all();
         foreach ($this->fillable as $field) {
             if (isset($data[$field])) {
                 $this->attributes[$field] = $data[$field];
@@ -18,5 +18,10 @@ class Model
             }
         }
         
+    }
+
+    public function getAttributes(): array
+    {
+        return $this->attributes;
     }
 }

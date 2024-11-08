@@ -201,3 +201,374 @@ Stack Trace:
 #3 {main}
 ===============================
 
+========== ERROR LOG ==========
+Date       : 2024-11-08 20:18:50
+Error Type : Error
+Message    : Call to undefined method Framework\Request::getData()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 12
+Stack Trace:
+#0 W:\domains\frame-work\core\Request.php(70): Framework\Model->loadData()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(21): Framework\Request->validatedData()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 20:40:37
+Error Type : TypeError
+Message    : Framework\Validator::validate(): Return value must be of type bool, none returned
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 16
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 20:40:58
+Error Type : ParseError
+Message    : syntax error, unexpected token "{"
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 12
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 20:58:52
+Error Type : ArgumentCountError
+Message    : explode() expects at least 2 arguments, 0 given
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 16
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(16): explode()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:05:48
+Error Type : ArgumentCountError
+Message    : str_contains() expects exactly 2 arguments, 1 given
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 20
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(20): str_contains()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:29:45
+Error Type : ArgumentCountError
+Message    : Too few arguments to function Framework\Validator::applyRule(), 0 passed in W:\domains\frame-work\core\Validator.php on line 25 and at least 2 expected
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 31
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:53:35
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 35
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(35): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:55:00
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 35
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(35): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:55:59
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:56:28
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:58:07
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 35
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(35): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 21:59:16
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:01:29
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:01:45
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:03:13
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:03:41
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:03:59
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:04:34
+Error Type : ErrorException
+Message    : Undefined array key ""
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Validator.php(59): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(25): Framework\Validator->applyRule()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Validator->validate()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:20:33
+Error Type : ErrorException
+Message    : strlen(): Passing null to parameter #1 ($string) of type string is deprecated
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 41
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(41): strlen()
+#2 W:\domains\frame-work\core\Validator.php(24): Framework\Validator->applyRule()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Validator->validate()
+#4 [internal function]: App\Controllers\UserController->store()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:23:34
+Error Type : ErrorException
+Message    : strlen(): Passing null to parameter #1 ($string) of type string is deprecated
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 41
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(41): strlen()
+#2 W:\domains\frame-work\core\Validator.php(24): Framework\Validator->applyRule()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Validator->validate()
+#4 [internal function]: App\Controllers\UserController->store()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:24:45
+Error Type : ErrorException
+Message    : strlen(): Passing null to parameter #1 ($string) of type string is deprecated
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 41
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(41): strlen()
+#2 W:\domains\frame-work\core\Validator.php(24): Framework\Validator->applyRule()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Validator->validate()
+#4 [internal function]: App\Controllers\UserController->store()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-08 22:25:44
+Error Type : ErrorException
+Message    : strlen(): Passing null to parameter #1 ($string) of type string is deprecated
+File       : W:\domains\frame-work\core\Validator.php
+Line       : 41
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Validator.php(41): strlen()
+#2 W:\domains\frame-work\core\Validator.php(24): Framework\Validator->applyRule()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Validator->validate()
+#4 [internal function]: App\Controllers\UserController->store()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
