@@ -71,15 +71,30 @@ class Request
         return $data->getAttributes();
     }
 
-    public function validate(array $rules): array
+    public function validate(array $rules)
     {
         $data = $this->all();
+
+            $validator = new Validator();
+
+            if ($validator->validate($data, $rules)) {
+                session()->remove('form_errors');
+                session()->remove('form_data');
+                session()->flash('success', 'success Validation');
+                return $data;
+            }
+            session()->flash('error', 'Error Validation');
+            session()->set('form_errors', $validator->getErrors());
+            session()->set('form_data', $data);
+            return [];
+    }
+
+
+    public function errors()
+    {
         $validator = new Validator();
 
-        if ($validator->validate($data, $rules)) {
-            return $data;
-        }
-        return ['errors' => $validator->getErrors()];
+        return $validator->getErrors();
     }
 
 

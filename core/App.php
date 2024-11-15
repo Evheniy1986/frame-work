@@ -14,6 +14,7 @@ class App
     public View $view;
 
     public ErrorHandler $errorHandler;
+    public Session $session;
 
     public static App $app;
 
@@ -26,6 +27,7 @@ class App
         $this->route = new Route($this->request, $this->response);
         $this->view = new View("main");
         $this->errorHandler = new ErrorHandler(true);
+        $this->session = new Session();
     }
 
     public function run()

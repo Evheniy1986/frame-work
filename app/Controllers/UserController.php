@@ -10,25 +10,26 @@ class UserController extends BaseController
 
     public function register()
     {
+
         return view('user/register', ['title' => 'Register page']);
     }
 
     public function store()
     {
 
-        $data = request()->validate([
+        $rules = [
             'name' => 'required|min:3',
             'email' => 'required|email',
-            'password' => 'required|min:6|confirmation',
-        ]);
+            'password' => 'required|min:6|confirmed',
+        ];
+        $data = request()->validate($rules);
 
-        dump($data);
+        if ($data) {
 
-//        if (isset($data['errors'])) {
-//            dump($data['errors']);
-//        } else {
-//            echo "Validation passed!";
-//        }
+        } else {
+
+        }
+        response()->redirect('/register');
 
     }
 

@@ -572,3 +572,3924 @@ Stack Trace:
 #8 {main}
 ===============================
 
+========== ERROR LOG ==========
+Date       : 2024-11-12 16:30:36
+Error Type : Error
+Message    : Call to a member function errors() on string
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 27
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->store()
+#1 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#2 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-12 16:31:00
+Error Type : ErrorException
+Message    : Attempt to read property "errors" on string
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 27
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(27): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-12 16:31:36
+Error Type : Error
+Message    : Call to a member function getErrors() on string
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 27
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->store()
+#1 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#2 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-12 16:46:36
+Error Type : ErrorException
+Message    : Undefined array key "errors"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 26
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(26): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-12 17:20:49
+Error Type : TypeError
+Message    : Framework\Request::validate(): Return value must be of type array, bool returned
+File       : W:\domains\frame-work\core\Request.php
+Line       : 80
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Request->validate()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-12 17:22:43
+Error Type : TypeError
+Message    : Framework\Request::validate(): Return value must be of type array, none returned
+File       : W:\domains\frame-work\core\Request.php
+Line       : 83
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Request->validate()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-12 18:55:43
+Error Type : ArgumentCountError
+Message    : Too few arguments to function Framework\Request::validatedData(), 0 passed in W:\domains\frame-work\core\Request.php on line 86 and exactly 1 expected
+File       : W:\domains\frame-work\core\Request.php
+Line       : 67
+Stack Trace:
+#0 W:\domains\frame-work\core\Request.php(86): Framework\Request->validatedData()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Request->validate()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-12 18:58:51
+Error Type : TypeError
+Message    : Framework\Request::validate(): Return value must be of type array, null returned
+File       : W:\domains\frame-work\core\Request.php
+Line       : 87
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Request->validate()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(33): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 19:28:21
+Error Type : TypeError
+Message    : array_key_exists(): Argument #2 ($array) must be of type array, bool given
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 25
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(25): array_key_exists()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:07:48
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\incs\flash\error.php
+Line       : 4
+Stack Trace:
+#0 W:\domains\frame-work\views\incs\flash\error.php(4): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(51): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(36): Framework\View->renderPartials()
+#3 W:\domains\frame-work\views\layouts\main.php(38): getFlash()
+#4 W:\domains\frame-work\core\View.php(36): require_once('W:\\domains\\fram...')
+#5 W:\domains\frame-work\helpers\helpers.php(26): Framework\View->render()
+#6 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#7 [internal function]: App\Controllers\UserController->register()
+#8 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#9 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#10 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#11 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:22:21
+Error Type : ErrorException
+Message    : Attempt to read property "error" on array
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:22:46
+Error Type : ErrorException
+Message    : Attempt to read property "error" on array
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:28:28
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\incs\flash\error.php
+Line       : 4
+Stack Trace:
+#0 W:\domains\frame-work\views\incs\flash\error.php(4): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(51): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(36): Framework\View->renderPartials()
+#3 W:\domains\frame-work\views\layouts\main.php(38): getFlash()
+#4 W:\domains\frame-work\core\View.php(36): require_once('W:\\domains\\fram...')
+#5 W:\domains\frame-work\helpers\helpers.php(26): Framework\View->render()
+#6 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#7 [internal function]: App\Controllers\UserController->register()
+#8 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#9 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#10 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#11 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:30:11
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\incs\flash\error.php
+Line       : 4
+Stack Trace:
+#0 W:\domains\frame-work\views\incs\flash\error.php(4): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(51): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(36): Framework\View->renderPartials()
+#3 W:\domains\frame-work\views\layouts\main.php(38): getFlash()
+#4 W:\domains\frame-work\core\View.php(36): require_once('W:\\domains\\fram...')
+#5 W:\domains\frame-work\helpers\helpers.php(26): Framework\View->render()
+#6 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#7 [internal function]: App\Controllers\UserController->register()
+#8 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#9 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#10 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#11 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:30:37
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\incs\flash\error.php
+Line       : 4
+Stack Trace:
+#0 W:\domains\frame-work\views\incs\flash\error.php(4): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(51): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(36): Framework\View->renderPartials()
+#3 W:\domains\frame-work\views\layouts\main.php(38): getFlash()
+#4 W:\domains\frame-work\core\View.php(36): require_once('W:\\domains\\fram...')
+#5 W:\domains\frame-work\helpers\helpers.php(26): Framework\View->render()
+#6 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#7 [internal function]: App\Controllers\UserController->register()
+#8 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#9 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#10 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#11 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:33:17
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:48:33
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:48:46
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:53:16
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 20:56:22
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:10:34
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(34): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:10:52
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(34): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:31:08
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:31:49
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:39:20
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:39:23
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:42:01
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:42:04
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:43:33
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:44:01
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:14
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:16
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:18
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:19
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:23
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:24
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:24
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:52:55
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:53:00
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:53:01
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:53:01
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:53:10
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:54:44
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:20
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:29
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:29
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:30
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:30
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:30
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:30
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:55:44
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:56:15
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:56:16
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:56:33
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 21:56:36
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:00:39
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:28
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:30
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:31
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:31
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:31
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:43
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:43
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:51
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:51
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:53
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:54
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:54
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:54
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:55
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:02:55
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:10:02
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:10:03
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:11:01
+Error Type : ParseError
+Message    : syntax error, unexpected identifier "dump"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 39
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(56): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:11:41
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:11:49
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:12:33
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:12:39
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:13:14
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:13:18
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:13:47
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:13:51
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:21:08
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:43:10
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-13 22:44:41
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:34
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:36
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:38
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:39
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:40
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:40
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:41
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:41:44
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:42:12
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:42:13
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:42:14
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:42:44
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:01
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:49
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:50
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:51
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:52
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:52
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:52
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:52
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:53
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:53
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:54
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:43:57
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:44:07
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:45:48
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 00:45:57
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:18
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:20
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:21
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:29
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:30
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:31
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:31
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:31
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:35
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:06:58
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:07:28
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:07:29
+Error Type : ErrorException
+Message    : Undefined array key "form_error"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(8): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:12:16
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:12:19
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 3
+Stack Trace:
+#0 W:\domains\frame-work\views\user\register.php(3): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#2 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#3 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#4 [internal function]: App\Controllers\UserController->register()
+#5 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#6 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#7 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#8 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:13:20
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:13:33
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:13:36
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:14:46
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:14:50
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:26:44
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 01:29:01
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 02:32:34
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 02:33:07
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 02:37:55
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 02:53:45
+Error Type : ErrorException
+Message    : Undefined array key "name"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 66
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(66): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(6): get_class_validation()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 02:53:47
+Error Type : ErrorException
+Message    : Undefined array key "name"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 66
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(66): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(6): get_class_validation()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 02:54:39
+Error Type : ErrorException
+Message    : Undefined array key "name"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 66
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(66): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(6): get_class_validation()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:39:07
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:41:49
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:42:29
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:42:35
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:42:39
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:42:53
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:43:11
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 03:45:23
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(35): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 04:00:20
+Error Type : ErrorException
+Message    : Trying to access array offset on value of type null
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 75
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(75): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(6): old()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 04:00:23
+Error Type : ErrorException
+Message    : Trying to access array offset on value of type null
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 75
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(75): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(6): old()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:27:34
+Error Type : ErrorException
+Message    : Trying to access array offset on value of type null
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:27:34
+Error Type : ErrorException
+Message    : Trying to access array offset on value of type null
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:53:00
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:57:37
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:57:43
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:57:45
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:57:52
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:57:54
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:58:04
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:58:30
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:58:33
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:58:57
+Error Type : Error
+Message    : Call to undefined method Framework\View::getMethod()
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 2
+Stack Trace:
+#0 W:\domains\frame-work\core\View.php(24): require()
+#1 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:58:59
+Error Type : Error
+Message    : Call to undefined method Framework\View::getMethod()
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 2
+Stack Trace:
+#0 W:\domains\frame-work\core\View.php(24): require()
+#1 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:00
+Error Type : Error
+Message    : Call to undefined method Framework\View::getMethod()
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 2
+Stack Trace:
+#0 W:\domains\frame-work\core\View.php(24): require()
+#1 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:00
+Error Type : Error
+Message    : Call to undefined method Framework\View::getMethod()
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 2
+Stack Trace:
+#0 W:\domains\frame-work\core\View.php(24): require()
+#1 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:02
+Error Type : Error
+Message    : Call to undefined method Framework\View::getMethod()
+File       : W:\domains\frame-work\views\user\register.php
+Line       : 2
+Stack Trace:
+#0 W:\domains\frame-work\core\View.php(24): require()
+#1 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(13): view()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:31
+Error Type : Error
+Message    : Call to undefined method App\Controllers\UserController::getMethod()
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 18
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->store()
+#1 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#2 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:40
+Error Type : Error
+Message    : Call to undefined method App\Controllers\UserController::getMethod()
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 18
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->store()
+#1 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#2 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:52
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:55
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 15:59:58
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 16:06:47
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(38): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 16:07:00
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(38): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 16:07:08
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(38): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 16:08:01
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 38
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(38): header()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 16:25:35
+Error Type : ErrorException
+Message    : Undefined array key "email"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(60): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(12): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(14): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 16:59:25
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Session.php
+Line       : 20
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(60): Framework\Session->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(14): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 17:13:56
+Error Type : ArgumentCountError
+Message    : Too few arguments to function Framework\Request::validate(), 1 passed in W:\domains\frame-work\app\Controllers\UserController.php on line 22 and exactly 2 expected
+File       : W:\domains\frame-work\core\Request.php
+Line       : 74
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(22): Framework\Request->validate()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#3 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 17:43:34
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 44
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(44): header()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 17:43:55
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 44
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(44): header()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 17:58:46
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 44
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(44): header()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#4 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 18:10:38
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 18:11:13
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 21:04:33
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(42): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 21:05:15
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 21:44:11
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 21:58:53
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 22:02:44
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 22:02:49
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 22:02:50
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 22:02:51
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:54:02
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:54:39
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:33
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:35
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:36
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:38
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:49
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:50
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:52
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:55
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:56
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:55:57
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:56:24
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:56:29
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:56:51
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:59:51
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-14 23:59:52
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:00:06
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:00:08
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:00:31
+Error Type : TypeError
+Message    : Illegal offset type
+File       : W:\domains\frame-work\core\Request.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\Request->get()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:01:05
+Error Type : ErrorException
+Message    : Undefined array key "name"
+File       : W:\domains\frame-work\helpers\helpers.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\helpers\helpers.php(52): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\views\user\register.php(7): get_errors()
+#2 W:\domains\frame-work\core\View.php(22): require('W:\\domains\\fram...')
+#3 W:\domains\frame-work\helpers\helpers.php(31): Framework\View->render()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(18): view()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#7 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:29:53
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:30:22
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:31:27
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:31:33
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(46): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:51:21
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:51:30
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:51:36
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 00:51:51
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(40): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 01:18:56
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(34): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 01:19:04
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(34): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 01:19:07
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(34): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(35): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+

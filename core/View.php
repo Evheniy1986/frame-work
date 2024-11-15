@@ -41,6 +41,20 @@ class View
         return '';
     }
 
+    public function renderPartials($view, $data = []): string
+    {
+        extract($data);
+        $view_file = APP_PATH . "/views/{$view}.php";
+
+        if (is_file($view_file)) {
+            ob_start();
+            require $view_file;
+            return ob_get_clean();
+        } else {
+           return "File {$view_file} not found";
+        }
+    }
+
     public function getContent(): string
     {
         return $this->content;
