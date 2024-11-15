@@ -28,11 +28,19 @@ class App
         $this->view = new View("main");
         $this->errorHandler = new ErrorHandler(true);
         $this->session = new Session();
+        $this->generateCsrfToken();
     }
 
     public function run()
     {
        echo $this->route->dispatch();
+    }
+
+    public function generateCsrfToken()
+    {
+        if (!$this->session->has('csrf_token')) {
+            $this->session->set('csrf_token', md5(uniqid(mt_rand(),true)));
+        }
     }
 
 

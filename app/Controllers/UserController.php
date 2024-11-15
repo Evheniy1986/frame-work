@@ -10,7 +10,6 @@ class UserController extends BaseController
 
     public function register()
     {
-
         return view('user/register', ['title' => 'Register page']);
     }
 

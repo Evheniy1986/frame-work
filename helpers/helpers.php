@@ -49,7 +49,6 @@ function get_errors($field)
 {
     $output = '';
     $errors = session()->get('form_errors');
-//    dd(request()->get($errors[$field]));
 
     if (isset($errors[$field])) {
         $output .= '<div class="invalid-feedback d-block"><ul class="list-unstyled">';
@@ -96,4 +95,14 @@ function base_url($path = ''): string
 function h($str): string
 {
     return htmlspecialchars($str, ENT_QUOTES);
+}
+
+function csrf_token_field()
+{
+    return '<input type="hidden" name="csrf_token" value="' . session()->get('csrf_token') .'">';
+}
+
+function meta_csrf_token()
+{
+    return '<meta name="csrf-token" content="'. session()->get('csrf_token') .'">';
 }

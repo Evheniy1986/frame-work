@@ -4493,3 +4493,322 @@ Stack Trace:
 #7 {main}
 ===============================
 
+========== ERROR LOG ==========
+Date       : 2024-11-15 21:47:51
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 21:48:32
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 21:49:11
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 21:49:27
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 22:15:43
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 22:45:02
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(59): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 22:45:54
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(59): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 22:51:12
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(62): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 22:52:12
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(62): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 22:57:11
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(62): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 22:57:42
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(62): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:00:20
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(62): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:04:18
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(59): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:04:31
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:04:44
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:10:09
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:10:36
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:12:16
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(32): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(58): call_user_func()
+#5 W:\domains\frame-work\core\App.php(36): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-15 23:51:49
+Error Type : ErrorException
+Message    : Trying to access array offset on value of type int
+File       : W:\domains\frame-work\core\Route.php
+Line       : 100
+Stack Trace:
+#0 W:\domains\frame-work\core\Route.php(100): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\config\routes.php(8): Framework\Route->withoutCsrfToken()
+#2 W:\domains\frame-work\public\index.php(12): require('W:\\domains\\fram...')
+#3 {main}
+===============================
+

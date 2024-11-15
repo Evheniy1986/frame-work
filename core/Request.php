@@ -51,6 +51,11 @@ class Request
         return $_POST[$name] ?? $default;
     }
 
+    public function input($fieldName, $default = null)
+    {
+        return $this->post($fieldName) ?? $this->get($fieldName) ?? $default;
+    }
+
     public function all()
     {
         $data = [];

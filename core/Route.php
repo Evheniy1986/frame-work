@@ -28,7 +28,8 @@ class Route
             'path' => "/$path",
             'function' => $function,
             'method' => $method,
-            'middleware' => null
+            'middleware' => null,
+            'needCsrfToken' => true
         ];
         return $this;
     }
@@ -64,6 +65,19 @@ class Route
             if (preg_match("#^{$route['path']}$#", "/{$path}", $matches)
                 &&
                 in_array($this->request->getMethod(), $route['method'])) {
+                if (request()->isPost()) {
+                    if (!$this->checkCsrfToken() && $route['needCsrfToken']) {
+                        if (request()->isAjax()) {
+                            echo json_encode([
+                                'status' => 'error',
+                                'message' => 'Security error'
+                            ]);
+                            die;
+                        } else {
+                            abort('Page expired', 419);
+                        }
+                    }
+                }
                 foreach ($matches as $k => $v) {
                     if (is_string($k)) {
                         $this->route_params[$k] = $v;
@@ -73,6 +87,20 @@ class Route
             }
         }
         return false;
+    }
+
+    protected function checkCsrfToken(): bool
+    {
+        return $this->request->input('csrf_token') && ($this->request->input('csrf_token')) == session()->get('csrf_token');
+    }
+
+    public function withoutCsrfToken()
+    {
+        $lastRouteIndex = array_key_last($this->routes);
+        if ($lastRouteIndex >= 0) {
+            $this->routes[$lastRouteIndex]['needCsrfToken'] = false;
+        }
+        return $this;
     }
 
 

@@ -2,6 +2,7 @@
     <h1 class="text-center mb-4"><?= $title ?? ''; ?></h1>
 
     <form class="w-25 m-auto" method="post" action="<?= base_url('/register') ?>">
+        <?= csrf_token_field(); ?>
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" name="name" class="form-control <?= get_class_validation('name'); ?>" id="name" aria-describedby="emailHelp" value="<?= old('name'); ?>">
