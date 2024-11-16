@@ -19,6 +19,7 @@ class Route
     public function add($path, $function, $method): self
     {
         $path = trim($path, '/');
+        $path = preg_replace('/{([a-zA-Z0-9_]+)}/', '(?P<\1>[a-zA-Z0-9_-]+)', $path);
         if (is_array($method)) {
             $method = array_map('strtoupper', $method);
         } else {
@@ -91,7 +92,7 @@ class Route
 
     protected function checkCsrfToken(): bool
     {
-        return $this->request->input('csrf_token') && ($this->request->input('csrf_token')) == session()->get('csrf_token');
+        return $this->request->post('csrf_token') && ($this->request->post('csrf_token') == session()->get('csrf_token'));
     }
 
     public function withoutCsrfToken()
