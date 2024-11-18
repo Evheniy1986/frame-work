@@ -4872,3 +4872,1407 @@ Stack Trace:
 #5 {main}
 ===============================
 
+========== ERROR LOG ==========
+Date       : 2024-11-16 22:08:51
+Error Type : ErrorException
+Message    : Undefined array key "name"
+File       : W:\domains\frame-work\core\Database.php
+Line       : 19
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(19): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\App.php(34): Framework\Database->__construct()
+#2 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#3 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-16 22:25:51
+Error Type : TypeError
+Message    : error_log(): Argument #2 ($message_type) must be of type int, string given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 27
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(27): error_log()
+#1 W:\domains\frame-work\core\App.php(34): Framework\Database->__construct()
+#2 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#3 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-16 22:28:17
+Error Type : TypeError
+Message    : error_log(): Argument #2 ($message_type) must be of type int, string given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 27
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(27): error_log()
+#1 W:\domains\frame-work\core\App.php(34): Framework\Database->__construct()
+#2 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#3 {main}
+===============================
+
+[2024-11-16 22:30:14Db error: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)
+[2024-11-17 12:44:16Db error: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)
+[2024-11-17 12:44:17Db error: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)
+[2024-11-17 13:07:47Db error: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)
+[2024-11-17 13:07:47Db error: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)
+[2024-11-17 13:07:48Db error: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)
+[2024-11-17 13:07:48Db error: SQLSTATE[HY000] [1045] Access denied for user 'root2'@'localhost' (using password: YES)
+========== ERROR LOG ==========
+Date       : 2024-11-17 13:52:21
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 13:52:56
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:12:43
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:29:33
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:37:06
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:38:08
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:39:47
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:40:22
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:41:19
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:41:34
+Error Type : ErrorException
+Message    : Undefined variable $user
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 30
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(30): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->store()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:42:00
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:42:11
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(34): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:43:21
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:52:51
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:52:55
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:53:15
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 14:59:55
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:00:11
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:02:10
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:02:20
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:02:33
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:04:04
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:11:10
+Error Type : ParseError
+Message    : syntax error, unexpected token ",", expecting "=>"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:16:17
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') values ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:17:21
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(29): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:19:21
+Error Type : ParseError
+Message    : syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 29
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:28:15
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') VALUES ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(30): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:31:15
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') VALUES ('Braeden Collier','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(30): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:43:31
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:44:00
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:44:12
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:49:26
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:49:41
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:52:04
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') VALUES ('adwwaaw','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:56:54
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:57:45
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 15:58:27
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 46
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(46): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:02:36
+Error Type : ErrorException
+Message    : Undefined variable $sql
+File       : W:\domains\frame-work\core\Database.php
+Line       : 47
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(47): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:02:59
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(59): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:04:29
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 58
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(58): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:04:31
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 58
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(58): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:04:47
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(59): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:05:18
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(59): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:05:31
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(54): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:09:14
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:09:37
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users ('name', 'email', 'password') VALUES (?,?,?)========== ERROR LOG ==========
+Date       : 2024-11-17 16:12:18
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users ('name', 'email', 'password') VALUES (?,?,?)========== ERROR LOG ==========
+Date       : 2024-11-17 16:13:03
+Error Type : ErrorException
+Message    : Array to string conversion
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+Executing SQL: INSERT INTO users ('name', 'email', 'password') VALUES ('adwwaaw','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:13:56
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') VALUES ('adwwaaw','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:14:28
+Error Type : TypeError
+Message    : PDO::quote(): Argument #1 ($string) must be of type string, array given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 49
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(49): PDO->quote()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users ('name', 'email', 'password') VALUES ('adwwaaw','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:16:30
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') VALUES ('adwwaaw','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users ('name', 'email', 'password') VALUES ('adwwaaw','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:28:02
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name', 'email', 'password') VALUES ('adwwaaw','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users (`name`, `email`, `password`) VALUES ('adwwaaw','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:31:40
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(42): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:35:43
+Error Type : ParseError
+Message    : syntax error, unexpected token ":"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 27
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES :name,:email,:password========== ERROR LOG ==========
+Date       : 2024-11-17 16:37:15
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(38): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES (:name,:email,:password)========== ERROR LOG ==========
+Date       : 2024-11-17 16:37:48
+Error Type : PDOException
+Message    : SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(38): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:38:57
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(39): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 16:39:56
+Error Type : TypeError
+Message    : PDO::quote(): Argument #1 ($string) must be of type string, array given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 49
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(49): PDO->quote()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(37): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:45:18
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(43): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:46:57
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(43): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:48:01
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(43): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:48:08
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(43): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:48:42
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(43): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:49:33
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(43): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users name,email,password VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:50:47
+Error Type : PDOException
+Message    : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name,email,password VALUES ('dawd','user1@mail.ru','123456')' at line 1
+File       : W:\domains\frame-work\core\Database.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(60): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(43): Framework\Database->query()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users (name,email,password) VALUES ('dawd','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-17 16:51:37
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(48): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 17:49:06
+Error Type : ParseError
+Message    : syntax error, unexpected token "return"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 17:49:07
+Error Type : ParseError
+Message    : syntax error, unexpected token "return"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 17:49:09
+Error Type : ParseError
+Message    : syntax error, unexpected token "return"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 17:58:02
+Error Type : ErrorException
+Message    : Undefined variable $id
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 15
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(15): Framework\ErrorHandler->handleError()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-17 18:05:42
+Error Type : Error
+Message    : Call to a member function getOne() on string
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 15
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+Executing SQL: select * from users where id = '2'Executing SQL: select * from users where id = '2'Executing SQL: select * from users where id = '2'Executing SQL: select * from users where id = '2'Executing SQL: select * from users where id = '2'Executing SQL: select * from users where id = '2'Executing SQL: select * from users where id = '2'========== ERROR LOG ==========
+Date       : 2024-11-18 20:26:27
+Error Type : Error
+Message    : Call to a member function getOne() on string
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 20:28:31
+Error Type : Error
+Message    : Call to a member function getOne() on string
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 20:28:32
+Error Type : Error
+Message    : Call to a member function getOne() on string
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 20:50:34
+Error Type : ParseError
+Message    : syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 20:52:46
+Error Type : ParseError
+Message    : syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+Executing SQL: select * from users where id = '2'========== ERROR LOG ==========
+Date       : 2024-11-18 21:00:47
+Error Type : ParseError
+Message    : syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 18
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 21:00:49
+Error Type : ParseError
+Message    : syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 18
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+Executing SQL: select * from users where id = '2'Executing SQL: INSERT INTO users (name,email,password) VALUES ('Braeden Collier','user1@mail.ru','123456')========== ERROR LOG ==========
+Date       : 2024-11-18 21:01:31
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(53): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 21:02:32
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(55): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 21:27:21
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(55): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+Executing SQL: SELECT * FROM users Executing SQL: SELECT * FROM users ========== ERROR LOG ==========
+Date       : 2024-11-18 21:28:03
+Error Type : ArgumentCountError
+Message    : Too few arguments to function Framework\Database::find(), 1 passed in W:\domains\frame-work\app\Controllers\UserController.php on line 18 and at least 2 expected
+File       : W:\domains\frame-work\core\Database.php
+Line       : 83
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(18): Framework\Database->find()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 21:29:09
+Error Type : TypeError
+Message    : PDO::quote(): Argument #1 ($string) must be of type string, array given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 50
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(50): PDO->quote()
+#1 W:\domains\frame-work\core\Database.php(85): Framework\Database->query()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(18): Framework\Database->find()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 21:29:34
+Error Type : TypeError
+Message    : PDO::quote(): Argument #1 ($string) must be of type string, array given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 50
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(50): PDO->quote()
+#1 W:\domains\frame-work\core\Database.php(85): Framework\Database->query()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(18): Framework\Database->find()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 21:29:35
+Error Type : TypeError
+Message    : PDO::quote(): Argument #1 ($string) must be of type string, array given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 50
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(50): PDO->quote()
+#1 W:\domains\frame-work\core\Database.php(85): Framework\Database->query()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(18): Framework\Database->find()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE id = '2' LIMIT 1Executing SQL: SELECT * FROM users WHERE id = '2' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user1@mail.ru' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user1@mail.ru' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user1@mail.ru' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-18 21:39:03
+Error Type : Error
+Message    : Call to a member function prepare() on null
+File       : W:\domains\frame-work\core\Database.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(82): Framework\Database->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Database->find()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1

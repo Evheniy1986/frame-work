@@ -16,6 +16,8 @@ class App
     public ErrorHandler $errorHandler;
     public Session $session;
 
+    public Database $db;
+
     public static App $app;
 
     public function __construct()
@@ -29,6 +31,7 @@ class App
         $this->errorHandler = new ErrorHandler(true);
         $this->session = new Session();
         $this->generateCsrfToken();
+        $this->db = new Database();
     }
 
     public function run()

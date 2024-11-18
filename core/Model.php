@@ -5,6 +5,7 @@ namespace Framework;
 class Model
 {
     protected array $fillable = [];
+    protected string $table;
     public array $attributes = [];
 
     public function loadData()
