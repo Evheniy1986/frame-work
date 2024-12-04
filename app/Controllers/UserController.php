@@ -11,13 +11,9 @@ class UserController extends BaseController
 
     public function register()
     {
-        $first = new User();
-        $first->loadData();
-        $db = new Database();
-        $db1 = new Database();
-        dump($db, $db1);
-//        $user = $db->query("select * from users where id = ?", [2])->getOne();
-        $user = $db->find('users', 'user12@mail.ru', 'email');
+        $db = db();
+        $user = User::query()->where('is_admin', '=', 0)->get();
+//        dump($db, $user);
         return view('user/register', ['title' => 'Register page']);
     }
 
@@ -30,21 +26,17 @@ class UserController extends BaseController
             'password' => 'required|min:6|confirmed',
         ];
         $data = request()->validate($rules);
-        $columns = implode(',', array_keys($rules));
-        $values = implode(',', array_map(fn($key) => ":{$key}", array_keys($rules)));
         if ($data) {
-            $db = new Database();
-            $value['name'] = $data['name'];
-            $value['email'] = $data['email'];
-            $value['password'] = $data['password'];
+            $user = new User();
 
-            $first = new User();
-            $first->loadData();
-            dump($first->getAttributes());
+            $user->password = password_hash($data['password'], PASSWORD_DEFAULT);
+//            dd($user, $data);
 
-//            $db->query("INSERT INTO users ($columns) VALUES ($values)", $value);
+            $user->save();
+
+
         } else {
-
+            response()->redirect('/register')->withErrors($data);
         }
         response()->redirect('/register');
 

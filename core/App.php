@@ -31,7 +31,7 @@ class App
         $this->errorHandler = new ErrorHandler(true);
         $this->session = new Session();
         $this->generateCsrfToken();
-        $this->db = new Database();
+        $this->db = Database::getInstance();
     }
 
     public function run()

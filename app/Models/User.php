@@ -7,7 +7,7 @@ use Framework\Model;
 class User extends Model
 {
     protected array $fillable = ['name', 'email', 'password'];
-    protected string $table = 'user';
+    protected static string $table = 'users';
 
 
 

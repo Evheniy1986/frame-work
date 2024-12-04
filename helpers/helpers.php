@@ -106,3 +106,8 @@ function meta_csrf_token()
 {
     return '<meta name="csrf-token" content="'. session()->get('csrf_token') .'">';
 }
+
+function db(): \Framework\Database
+{
+    return app()->db;
+}

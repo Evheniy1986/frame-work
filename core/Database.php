@@ -4,18 +4,23 @@ namespace Framework;
 
 class Database
 {
+    private static ?Database $instance = null;
     protected static ?\PDO $connection = null;
     private \PDOStatement $stmt;
 
-    public function __construct()
+    private function __construct()
     {
-        if (is_null(self::$connection)) {
-            return $this->connect();
-        }
+            $this->connect();
+
     }
 
     private function connect()
     {
+
+        if (self::$connection !== null) {
+            return;
+        }
+
         $dsn = sprintf("%s:host=%s;dbname=%s;charset=%s",
             DATABASE_CONFIG['driver'],
             DATABASE_CONFIG['host'],
@@ -37,10 +42,17 @@ class Database
             );
             exit("Database connection error: {$exception->getMessage()}");
         }
-        return $this;
     }
 
-    public function query($query, $params = []): static
+    public static function getInstance(): Database
+    {
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
+        return self::$instance;
+    }
+
+    public function sqlQuery($query, $params = []): static
     {
 
         $this->stmt = self::$connection->prepare($query);
@@ -56,7 +68,7 @@ class Database
             }
         }
         error_log("Executing SQL: $debugSql", 3, APP_PATH . '/tmp/errors.log');
-        dump($debugSql);
+//        dump($debugSql);
 
         $this->stmt->execute($params);
 
@@ -73,18 +85,6 @@ class Database
         return $this->stmt->fetch();
     }
 
-    public function findAll($table)
-    {
-        $this->query("SELECT * FROM {$table} ");
-        return $this->get();
-    }
-
-    public function find($table, $value, $key = 'id')
-    {
-        $this->query("SELECT * FROM {$table} WHERE $key = ? LIMIT 1", [$value]);
-        return $this->getOne();
-    }
-
     public function getInsertId()
     {
         return self::$connection->lastInsertId();
@@ -95,26 +95,9 @@ class Database
         return $this->stmt->rowCount();
     }
 
-    public function beginTransaction()
-    {
-        return self::$connection->beginTransaction();
-    }
-
-    public function commit()
-    {
-        return self::$connection->commit();
-    }
-
-    public function rollback()
-    {
-        self::$connection->rollBack();
-    }
-
-
-
     public static function getConection(): \PDO
     {
-        return self::$connection;
+        return self::$connection ?? self::getInstance()->connect();
     }
 }
 

@@ -6275,4 +6275,1391 @@ Stack Trace:
 #6 {main}
 ===============================
 
-Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1
+Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-18 23:17:59
+Error Type : ErrorException
+Message    : Cannot redeclare static Framework\Model::$table as non static App\Models\User::$table
+File       : W:\domains\frame-work\app\Models\User.php
+Line       : 7
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleShutdown()
+#1 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-18 23:19:59
+Error Type : Error
+Message    : Call to a member function loadData() on null
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-18 23:22:05
+Error Type : Error
+Message    : Call to a member function loadData() on null
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 16
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1Executing SQL: SELECT * FROM users WHERE email = 'user12@mail.ru' LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-19 01:16:31
+Error Type : ParseError
+Message    : syntax error, unexpected identifier "dump"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 21
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:17:19
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($conditions) must be of type array, int given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:17:43
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:17:59
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:18:18
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:18:19
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:19:05
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:21:27
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:21:28
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:22:23
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:23:32
+Error Type : PDOException
+Message    : SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework.user' doesn't exist
+File       : W:\domains\frame-work\core\Model.php
+Line       : 61
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(61): PDOStatement->execute()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:33:07
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:33:56
+Error Type : Error
+Message    : Call to a member function prepare() on null
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:34:29
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:37:31
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 65
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:38:33
+Error Type : ParseError
+Message    : syntax error, unexpected identifier "dump", expecting ")"
+File       : W:\domains\frame-work\core\Model.php
+Line       : 59
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\app\Models\User.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\vendor\composer\ClassLoader.php(576): include('W:\\domains\\fram...')
+#3 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(19): Composer\Autoload\ClassLoader->loadClass()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#7 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:38:48
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 67
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:39:48
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 65
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:39:48
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 65
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:40:25
+Error Type : Error
+Message    : Call to a member function prepare() on null
+File       : W:\domains\frame-work\core\Model.php
+Line       : 65
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:40:26
+Error Type : Error
+Message    : Call to a member function prepare() on null
+File       : W:\domains\frame-work\core\Model.php
+Line       : 65
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:41:23
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:41:24
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:41:38
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 54
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(54): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:42:12
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:42:43
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:42:44
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:42:57
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:43:39
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:44:01
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:44:01
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:44:02
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:44:03
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:44:04
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($table) must be of type string, array given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:44:31
+Error Type : Error
+Message    : Call to undefined method Framework\Database::getConnection()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 60
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 01:46:27
+Error Type : ParseError
+Message    : syntax error, unexpected token ";", expecting ")"
+File       : W:\domains\frame-work\core\Model.php
+Line       : 57
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\app\Models\User.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\vendor\composer\ClassLoader.php(576): include('W:\\domains\\fram...')
+#3 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(19): Composer\Autoload\ClassLoader->loadClass()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#7 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 02:05:44
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 61
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(61): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 02:08:57
+Error Type : TypeError
+Message    : PDO::query(): Argument #2 ($fetchMode) must be of type ?int, array given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 61
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(61): PDO->query()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE id = :id LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-19 02:12:02
+Error Type : Error
+Message    : Call to undefined method Framework\Database::fetch()
+File       : W:\domains\frame-work\core\Model.php
+Line       : 66
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE id = :id LIMIT 1Executing SQL: SELECT * FROM users WHERE id = :id LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-19 02:36:43
+Error Type : TypeError
+Message    : Framework\Model::first(): Argument #1 ($conditions) must be of type array, int given, called in W:\domains\frame-work\app\Controllers\UserController.php on line 20
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE id = :id LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-19 02:38:36
+Error Type : ParseError
+Message    : Unclosed '{' on line 49 does not match ')'
+File       : W:\domains\frame-work\core\Model.php
+Line       : 55
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\app\Models\User.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\vendor\composer\ClassLoader.php(576): include('W:\\domains\\fram...')
+#3 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(19): Composer\Autoload\ClassLoader->loadClass()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#7 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 02:39:01
+Error Type : ParseError
+Message    : syntax error, unexpected integer "2"
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 20
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 02:39:48
+Error Type : ParseError
+Message    : Unclosed '{' on line 13 does not match ')'
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 20
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\core\Route.php(58): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 02:40:24
+Error Type : ParseError
+Message    : Unclosed '{' on line 49 does not match ')'
+File       : W:\domains\frame-work\core\Model.php
+Line       : 55
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\app\Models\User.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\vendor\composer\ClassLoader.php(576): include('W:\\domains\\fram...')
+#3 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(19): Composer\Autoload\ClassLoader->loadClass()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#7 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 02:40:25
+Error Type : ParseError
+Message    : Unclosed '{' on line 49 does not match ')'
+File       : W:\domains\frame-work\core\Model.php
+Line       : 55
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\app\Models\User.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\vendor\composer\ClassLoader.php(576): include('W:\\domains\\fram...')
+#3 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(19): Composer\Autoload\ClassLoader->loadClass()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#7 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-19 02:41:00
+Error Type : ParseError
+Message    : Unclosed '{' on line 49 does not match ')'
+File       : W:\domains\frame-work\core\Model.php
+Line       : 55
+Stack Trace:
+#0 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#1 W:\domains\frame-work\app\Models\User.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 W:\domains\frame-work\vendor\composer\ClassLoader.php(576): include('W:\\domains\\fram...')
+#3 W:\domains\frame-work\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}()
+#4 W:\domains\frame-work\app\Controllers\UserController.php(19): Composer\Autoload\ClassLoader->loadClass()
+#5 [internal function]: App\Controllers\UserController->register()
+#6 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#7 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#8 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#9 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE id = :id LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-30 15:03:36
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\App
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:03:37
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\App
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:07:12
+Error Type : TypeError
+Message    : Framework\Database::getConection(): Return value must be of type PDO, null returned
+File       : W:\domains\frame-work\core\Database.php
+Line       : 117
+Stack Trace:
+#0 W:\domains\frame-work\core\App.php(34): Framework\Database::getConection()
+#1 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#2 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:07:13
+Error Type : TypeError
+Message    : Framework\Database::getConection(): Return value must be of type PDO, null returned
+File       : W:\domains\frame-work\core\Database.php
+Line       : 117
+Stack Trace:
+#0 W:\domains\frame-work\core\App.php(34): Framework\Database::getConection()
+#1 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#2 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:16:26
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\App
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:18:30
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\App
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:19:28
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\App
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:19:30
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\App
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:19:48
+Error Type : TypeError
+Message    : Cannot assign PDO to property Framework\App::$db of type Framework\Database
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:19:49
+Error Type : TypeError
+Message    : Cannot assign PDO to property Framework\App::$db of type Framework\Database
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 15:21:46
+Error Type : TypeError
+Message    : Framework\Database::getConection(): Return value must be of type PDO, null returned
+File       : W:\domains\frame-work\core\Database.php
+Line       : 117
+Stack Trace:
+#0 W:\domains\frame-work\core\App.php(34): Framework\Database::getConection()
+#1 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#2 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-30 15:33:13
+Error Type : TypeError
+Message    : Cannot assign PDO to property Framework\App::$db of type Framework\Database
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1========== ERROR LOG ==========
+Date       : 2024-11-30 15:54:25
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\App
+File       : W:\domains\frame-work\core\App.php
+Line       : 34
+Stack Trace:
+#0 W:\domains\frame-work\public\index.php(11): Framework\App->__construct()
+#1 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 16:13:00
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope App\Controllers\UserController
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 17
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 16:16:30
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\Model
+File       : W:\domains\frame-work\core\Model.php
+Line       : 62
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-11-30 16:16:36
+Error Type : Error
+Message    : Call to private Framework\Database::__construct() from scope Framework\Model
+File       : W:\domains\frame-work\core\Model.php
+Line       : 62
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1========== ERROR LOG ==========
+Date       : 2024-12-02 18:35:42
+Error Type : ArgumentCountError
+Message    : PDO::prepare() expects at least 1 argument, 0 given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 61
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(61): PDO->prepare()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#2 [internal function]: App\Controllers\UserController->register()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1Executing SQL: SELECT * FROM users WHERE email = :email LIMIT 1========== ERROR LOG ==========
+Date       : 2024-12-02 18:55:52
+Error Type : Error
+Message    : Call to undefined method App\Models\User::where()
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 14
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-02 18:56:33
+Error Type : Error
+Message    : Call to undefined method App\Models\User::first()
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-03 16:48:57
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(54): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-03 16:49:31
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(54): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-03 16:49:34
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(54): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-03 16:50:19
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(54): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-03 16:50:22
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(54): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-03 16:52:45
+Error Type : ErrorException
+Message    : Cannot modify header information - headers already sent by (output started at W:\domains\frame-work\vendor\symfony\var-dumper\Dumper\AbstractDumper.php:178)
+File       : W:\domains\frame-work\core\Response.php
+Line       : 21
+Stack Trace:
+#0 [internal function]: Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Response.php(21): header()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(54): Framework\Response->redirect()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-04 19:49:22
+Error Type : ArgumentCountError
+Message    : Too few arguments to function Framework\Model::loadData(), 0 passed in W:\domains\frame-work\app\Controllers\UserController.php on line 19 and exactly 1 expected
+File       : W:\domains\frame-work\core\Model.php
+Line       : 17
+Stack Trace:
+#0 W:\domains\frame-work\app\Controllers\UserController.php(19): Framework\Model->loadData()
+#1 [internal function]: App\Controllers\UserController->register()
+#2 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#3 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#4 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#5 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-04 19:50:50
+Error Type : Error
+Message    : Cannot use object of type App\Models\User as array
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 23
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->register()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+Executing SQL: SELECT * FROM usersExecuting SQL: SELECT * FROM users========== ERROR LOG ==========
+Date       : 2024-12-05 00:18:49
+Error Type : ErrorException
+Message    : foreach() argument must be of type array|object, int given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 62
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(62): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Model.php(127): Framework\Database->sqlQuery()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->get()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:20:28
+Error Type : ErrorException
+Message    : foreach() argument must be of type array|object, int given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 62
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(62): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Model.php(133): Framework\Database->sqlQuery()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(20): Framework\Model->first()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:21:48
+Error Type : ErrorException
+Message    : foreach() argument must be of type array|object, int given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 62
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(62): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Model.php(133): Framework\Database->sqlQuery()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(18): Framework\Model->first()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:21:51
+Error Type : ErrorException
+Message    : foreach() argument must be of type array|object, int given
+File       : W:\domains\frame-work\core\Database.php
+Line       : 62
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(62): Framework\ErrorHandler->handleError()
+#1 W:\domains\frame-work\core\Model.php(133): Framework\Database->sqlQuery()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(18): Framework\Model->first()
+#3 [internal function]: App\Controllers\UserController->register()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+Executing SQL: SELECT * FROM users WHERE id = '3'Executing SQL: SELECT * FROM users WHERE id = '3'Executing SQL: SELECT * FROM users WHERE id = '3'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '1'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0' AND email = 'user1@mail.ru'Executing SQL: SELECT * FROM users WHERE is_admin = '1' AND email = 'user1@mail.ru'Executing SQL: SELECT * FROM users WHERE is_admin = '0' AND email = 'user1@mail.ru'Executing SQL: SELECT * FROM users WHERE is_admin = '0' AND email = 'user@mail.ru'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'========== ERROR LOG ==========
+Date       : 2024-12-05 00:34:11
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, string given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(44): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(31): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:35:16
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, string given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(44): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(31): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:35:42
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, string given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(44): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(31): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:39:30
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, string given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(44): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:41:13
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, string given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(44): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 00:42:27
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, string given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 44
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(44): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(36): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users (name, email, password) VALUES ('jeka', 'jeka@email.com', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('Ivan', 'ivan@mail.com', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'========== ERROR LOG ==========
+Date       : 2024-12-05 00:48:14
+Error Type : Error
+Message    : Cannot use object of type App\Models\User as array
+File       : W:\domains\frame-work\app\Controllers\UserController.php
+Line       : 34
+Stack Trace:
+#0 [internal function]: App\Controllers\UserController->store()
+#1 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#2 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#3 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#4 {main}
+===============================
+
+Executing SQL: INSERT INTO users (name, email, password) VALUES ('Braeden Collier 33', 'user@mail.com', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('sgssvsvs', 'user@mail.com', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('tttttttttttt', 'admin@mail.ru', '$2y$10$nccVPKyJoFLie0JDsO.nX.rLPH29Wf4i.mO1cmI.bgEbdXpalbm9.')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('yyyyy', 'user1@mail.ru', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('ccccccccccccc', 'jeka@email.com', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('ffffffffffffffffff', 'admin@mail.ru', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('33333333333', 'user1@mail.ru', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (csrf_token, name, email, password, password_confirmation) VALUES ('7ed99169e3c65c0ee8aaf401df38b81b', '4444444', 'user1@mail.ru', '$2y$10$4heo8NmlflAy5RLW8H6O3uK5vTBmjsJcJ.kbHIgxz.AxUqaBIfMSO', '$2y$10$4heo8NmlflAy5RLW8H6O3uK5vTBmjsJcJ.kbHIgxz.AxUqaBIfMSO'_confirmation)========== ERROR LOG ==========
+Date       : 2024-12-05 01:15:09
+Error Type : PDOException
+Message    : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'csrf_token' in 'field list'
+File       : W:\domains\frame-work\core\Database.php
+Line       : 73
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(73): PDOStatement->execute()
+#1 W:\domains\frame-work\core\Model.php(52): Framework\Database->sqlQuery()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Model->save()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 01:16:29
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, null given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 45
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(45): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users (csrf_token, name, email, password, password_confirmation) VALUES ('7ed99169e3c65c0ee8aaf401df38b81b', '4444444', 'user1@mail.ru', '$2y$10$Dsv/WChBXiISOOUJMA1M9Ownmw9NK1FVi840uSapg.2kmFOJn7dQS', '$2y$10$Dsv/WChBXiISOOUJMA1M9Ownmw9NK1FVi840uSapg.2kmFOJn7dQS'_confirmation)========== ERROR LOG ==========
+Date       : 2024-12-05 01:20:07
+Error Type : PDOException
+Message    : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'csrf_token' in 'field list'
+File       : W:\domains\frame-work\core\Database.php
+Line       : 73
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(73): PDOStatement->execute()
+#1 W:\domains\frame-work\core\Model.php(56): Framework\Database->sqlQuery()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Model->save()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+Executing SQL: INSERT INTO users (csrf_token, name, email, password, password_confirmation) VALUES ('7ed99169e3c65c0ee8aaf401df38b81b', '4444444', 'user1@mail.ru', '$2y$10$B8MaH8J5UkL6.kllOtayjOsII9tXDEjRm6212g1hUxNL5KiC1dvRe', '$2y$10$B8MaH8J5UkL6.kllOtayjOsII9tXDEjRm6212g1hUxNL5KiC1dvRe'_confirmation)========== ERROR LOG ==========
+Date       : 2024-12-05 01:21:14
+Error Type : PDOException
+Message    : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'csrf_token' in 'field list'
+File       : W:\domains\frame-work\core\Database.php
+Line       : 73
+Stack Trace:
+#0 W:\domains\frame-work\core\Database.php(73): PDOStatement->execute()
+#1 W:\domains\frame-work\core\Model.php(60): Framework\Database->sqlQuery()
+#2 W:\domains\frame-work\app\Controllers\UserController.php(33): Framework\Model->save()
+#3 [internal function]: App\Controllers\UserController->store()
+#4 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#5 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#6 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#7 {main}
+===============================
+
+========== ERROR LOG ==========
+Date       : 2024-12-05 01:24:20
+Error Type : TypeError
+Message    : array_keys(): Argument #1 ($array) must be of type array, null given
+File       : W:\domains\frame-work\core\Model.php
+Line       : 52
+Stack Trace:
+#0 W:\domains\frame-work\core\Model.php(52): array_keys()
+#1 W:\domains\frame-work\app\Controllers\UserController.php(34): Framework\Model->save()
+#2 [internal function]: App\Controllers\UserController->store()
+#3 W:\domains\frame-work\core\Route.php(60): call_user_func()
+#4 W:\domains\frame-work\core\App.php(39): Framework\Route->dispatch()
+#5 W:\domains\frame-work\public\index.php(17): Framework\App->run()
+#6 {main}
+===============================
+
+Executing SQL: INSERT INTO users (name, email, password) VALUES ('4444444', 'user1@mail.ru', '123456')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: INSERT INTO users (name, email, password) VALUES ('sfghsrg', 'admin@mail.ru', '$2y$10$Wpsw2wQdoxvXyewnZggc9uXM8tmXsVrX9730jtt1mh0oNL8vZmbc2')Executing SQL: SELECT * FROM users WHERE is_admin = '0'Executing SQL: SELECT * FROM users WHERE is_admin = '0'
