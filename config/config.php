@@ -16,3 +16,8 @@ const DATABASE_CONFIG = [
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     ],
 ];
+
+const MIDDLEWARE = [
+    'auth' => \App\Middleware\AuthMiddleware::class,
+    'guest' => \App\Middleware\GuestMiddleware::class,
+];

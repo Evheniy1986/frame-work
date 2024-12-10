@@ -29,7 +29,7 @@ class Route
             'path' => "/$path",
             'function' => $function,
             'method' => $method,
-            'middleware' => null,
+            'middleware' => [],
             'needCsrfToken' => true
         ];
         return $this;
@@ -79,6 +79,26 @@ class Route
                         }
                     }
                 }
+                if (!empty($route['middleware']) && is_array($route['middleware'])) {
+                    foreach ($route['middleware'] as $item) {
+                        if (!isset(MIDDLEWARE[$item])) {
+                            abort("Middleware '{$item}' не найден в MIDDLEWARE", 500);
+                        }
+
+                        $middlewareClass = MIDDLEWARE[$item];
+
+                        if (class_exists($middlewareClass)) {
+                            $middlewareInstance = new $middlewareClass();
+                            if (method_exists($middlewareInstance, 'handle')) {
+                                $middlewareInstance->handle();
+                            } else {
+                                abort("Метод handle отсутствует в классе middleware '{$middlewareClass}'", 500);
+                            }
+                        } else {
+                            abort("Класс middleware '{$middlewareClass}' не найден", 500);
+                        }
+                    }
+                }
                 foreach ($matches as $k => $v) {
                     if (is_string($k)) {
                         $this->route_params[$k] = $v;
@@ -88,6 +108,23 @@ class Route
             }
         }
         return false;
+    }
+
+    public function middleware($middleware)
+    {
+        if (is_string($middleware)) {
+            $middleware = [$middleware];
+        }
+
+        if (!empty($this->routes)) {
+            $lastRouteIndex = array_key_last($this->routes);
+
+            if ($lastRouteIndex !== null) {
+                $this->routes[$lastRouteIndex]['middleware'] = $middleware;
+            }
+        }
+
+        return $this;
     }
 
     protected function checkCsrfToken(): bool

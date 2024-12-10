@@ -68,7 +68,6 @@ class Database
             }
         }
         error_log("Executing SQL: $debugSql", 3, APP_PATH . '/tmp/errors.log');
-//        dump($debugSql);
 
         $this->stmt->execute($params);
 

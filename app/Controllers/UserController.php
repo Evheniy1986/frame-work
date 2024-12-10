@@ -13,7 +13,7 @@ class UserController extends BaseController
     {
         $db = db();
         $user = User::query()->where('is_admin', '=', 0)->get();
-//        dump($db, $user);
+
         return view('user/register', ['title' => 'Register page']);
     }
 
@@ -30,10 +30,10 @@ class UserController extends BaseController
             $user = new User();
 
             $user->password = password_hash($data['password'], PASSWORD_DEFAULT);
-//            dd($user, $data);
 
-            $user->save();
 
+           $id = $user->save();
+           session()->set('user', ['id' => $id]);
 
         } else {
             response()->redirect('/register')->withErrors($data);
